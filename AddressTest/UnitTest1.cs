@@ -48,7 +48,7 @@ namespace AddressTest
                 }
             }
         /// UC2 Ability to adding multiple contacts to the address book JSON server and return the same
-        /// </summary>
+       
         [TestMethod]
         public void OnCallingPostAPIForAContactListWithMultipleContacts_ReturnContactObject()
         {
@@ -116,6 +116,23 @@ namespace AddressTest
             Assert.AreEqual("Shikhar", contact.FirstName);
             Assert.AreEqual("Dhawan", contact.LastName);
             Assert.AreEqual("535678", contact.Zip);
+            Console.WriteLine(response.Content);
+        }
+
+        /// UC25 Ability to delete the contact details with given id
+        
+        [TestMethod]
+        public void OnCallingDeleteAPI_ReturnSuccessStatus()
+        {
+            //Arrange
+            //Initialize the request for PUT to add new employee
+            RestRequest request = new RestRequest("/contacts/4", Method.DELETE);
+
+            //Act
+            IRestResponse response = client.Execute(request);
+
+            //Assert
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
             Console.WriteLine(response.Content);
         }
     }
