@@ -1,0 +1,12 @@
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\bin\Debug\AddressRestSharp.exe.config
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\bin\Debug\AddressRestSharp.exe
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\bin\Debug\AddressRestSharp.pdb
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\bin\Debug\RestSharp.dll
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\bin\Debug\RestSharp.xml
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\obj\Debug\AddressRestSharp.csprojAssemblyReference.cache
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\obj\Debug\AddressRestSharp.csproj.CoreCompileInputs.cache
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\obj\Debug\AddressRestSharp.csproj.CopyComplete
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\obj\Debug\AddressRestSharp.exe
+C:\Users\K.R.DHASHNIGA\source\repos\AddressRestSharp\AddressRestSharp\obj\Debug\AddressRestSharp.pdb
