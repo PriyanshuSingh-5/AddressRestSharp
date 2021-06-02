@@ -47,7 +47,7 @@ namespace AddressTest
                     Console.WriteLine($"Id: {c.Id}\tFullName: {c.FirstName} {c.LastName}\tPhoneNo: {c.PhoneNumber}\tAddress: {c.Address}\tCity: {c.City}\tState: {c.State}\tZip: {c.Zip}\tEmail: {c.Email}");
                 }
             }
-        /// UC23 Ability to adding multiple contacts to the address book JSON server and return the same
+        /// UC2 Ability to adding multiple contacts to the address book JSON server and return the same
         /// </summary>
         [TestMethod]
         public void OnCallingPostAPIForAContactListWithMultipleContacts_ReturnContactObject()
@@ -87,9 +87,39 @@ namespace AddressTest
                 Console.WriteLine(response.Content);
             }
         }
+        // UC3 Ability to update the phoneNo into the json file in json server
+        
+        [TestMethod]
+        public void OnCallingPutAPI_ReturnContactObjects()
+        {
+            //Arrange
+            //Initialize the request for PUT to add new employee
+            RestRequest request = new RestRequest("/contacts/6", Method.PUT);
+            JsonObject jsonObj = new JsonObject();
+            jsonObj.Add("firstname", "Shikhar");
+            jsonObj.Add("lastname", "Dhawan");
+            jsonObj.Add("phoneNo", "7858070934");
+            jsonObj.Add("address", "indian cricket");
+            jsonObj.Add("city", "delhi");
+            jsonObj.Add("state", "Inida");
+            jsonObj.Add("zip", "535678");
+            jsonObj.Add("email", "sr7@gmail.com");
+            //Added parameters to the request object such as the content-type and attaching the jsonObj with the request
+            request.AddParameter("application/json", jsonObj, ParameterType.RequestBody);
+
+            //Act
+            IRestResponse response = client.Execute(request);
+
+            //Assert
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+            Contact contact = JsonConvert.DeserializeObject<Contact>(response.Content);
+            Assert.AreEqual("Shikhar", contact.FirstName);
+            Assert.AreEqual("Dhawan", contact.LastName);
+            Assert.AreEqual("535678", contact.Zip);
+            Console.WriteLine(response.Content);
+        }
     }
 }
-
         
     
 
