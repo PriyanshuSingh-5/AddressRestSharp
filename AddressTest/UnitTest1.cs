@@ -30,9 +30,9 @@ namespace AddressTest
                 RestSharp.IRestResponse response = client.Execute(request);
                 return response;
             }
-            /// <summary>
-            /// UC22 Ability to reads the entries from json server.
-            /// </summary>
+            
+            // UC1 Ability to read the entries from json server.
+            
             [TestMethod]
             public void ReadEntriesFromJsonServer()
             {
