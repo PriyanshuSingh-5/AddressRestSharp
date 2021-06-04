@@ -44,50 +44,7 @@
       "email": "sr7@gmail.com",
       "id": 6
     },
-    {
-      "firstname": "Sachin",
-      "lastname": "tendulkar",
-      "phoneNo": "6777456345",
-      "address": "Feroz Shah Kotla",
-      "city": "New Delhi",
-      "state": "New Delhi",
-      "zip": "547677",
-      "email": "vs@gmail.com",
-      "id": 7
-    },
-    {
-      "firstname": "Sachin",
-      "lastname": "tendulkar",
-      "phoneNo": "6777456345",
-      "address": "Feroz Shah Kotla",
-      "city": "New Delhi",
-      "state": "New Delhi",
-      "zip": "547677",
-      "email": "vs@gmail.com",
-      "id": 8
-    },
-    {
-      "firstname": "Sachin",
-      "lastname": "dulkar",
-      "phoneNo": "8777456345",
-      "address": "Feroz Shah Kotla",
-      "city": "New Delhi",
-      "state": "New Delhi",
-      "zip": "547677",
-      "email": "vs@gmail.com",
-      "id": 9
-    },
-    {
-      "firstname": "Sachin",
-      "lastname": "dulkar",
-      "phoneNo": "8777456345",
-      "address": "Feroz Shah Kotla",
-      "city": "New Delhi",
-      "state": "New Delhi",
-      "zip": "547677",
-      "email": "vs@gmail.com",
-      "id": 10
-    },
+    
     {
       "firstname": "Sachin",
       "lastname": "dulkar",
