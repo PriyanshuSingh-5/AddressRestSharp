@@ -77,39 +77,7 @@
       "email": "vs@gmail.com",
       "id": 9
     },
-    {
-      "firstname": "Sachin",
-      "lastname": "dulkar",
-      "phoneNo": "8777456345",
-      "address": "Feroz Shah Kotla",
-      "city": "New Delhi",
-      "state": "New Delhi",
-      "zip": "547677",
-      "email": "vs@gmail.com",
-      "id": 10
-    },
-    {
-      "firstname": "Sachin",
-      "lastname": "dulkar",
-      "phoneNo": "8777456345",
-      "address": "Feroz Shah Kotla",
-      "city": "New Delhi",
-      "state": "New Delhi",
-      "zip": "547677",
-      "email": "vs@gmail.com",
-      "id": 11
-    },
-    {
-      "firstname": "virender",
-      "lastname": "Sehwag",
-      "phoneNo": "3456723456",
-      "address": "Chinnaswamy",
-      "city": "Bangalore",
-      "state": "Karnataka",
-      "zip": "435627",
-      "email": "yc@gmail.com",
-      "id": 12
-    },
+      
     {
       "firstname": "Shikha",
       "lastname": "Singh",
